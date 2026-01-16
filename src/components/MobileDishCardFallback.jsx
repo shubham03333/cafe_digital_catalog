@@ -20,7 +20,7 @@ const MobileDishCardFallback = ({ dish }) => {
             Popular
           </div>
         )}
-        {/* Floating price tag */}
+        {/* Floating price tag* */}
         <div className="absolute bottom-2 right-2 bg-gradient-to-br from-amber-400 to-orange-500 text-black px-4 py-2 rounded-2xl border-4 border-white/20 font-black text-2xl shadow-xl group-hover:scale-110 transition-transform duration-300 z-10">
           ₹{dish.price}
         </div>
